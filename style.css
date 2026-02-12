@@ -6,14 +6,34 @@ body {
 header {
     border: 2px solid powderblue;
     padding: 30px;
-} 
+    background-color: powderblue;
 
-a {
-  border: 10px rgb(138, 155, 233);
-  background-color: rgb(138, 155, 233);
-  padding: 10px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3a761;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: rgb(22, 7, 105);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    background-color: #72a0e6;
+  }
 }
 
+/************/
 h1 {
   color: rgb(32, 32, 112);
 }
