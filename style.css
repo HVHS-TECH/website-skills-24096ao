@@ -3,6 +3,29 @@ body {
     font-family: courier;
   }
 
+header {
+    border: 2px solid powderblue;
+    padding: 30px;
+} 
+
+a {
+  border: 10px rgb(138, 155, 233);
+  background-color: rgb(138, 155, 233);
+  padding: 10px;
+}
+
 h1 {
   color: rgb(32, 32, 112);
+}
+
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+img {
+  border: 1px solid #924040;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
