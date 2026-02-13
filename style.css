@@ -3,10 +3,19 @@ body {
     font-family: courier;
   }
 
+/***************************************************/
+
 header {
     border: 2px solid powderblue;
     padding: 30px;
     background-color: powderblue;
+}
+
+/***************************************************/
+
+nav {
+
+  text-decoration-line: none;
 
   ul {
     list-style-type: none;
@@ -33,19 +42,16 @@ header {
   }
 }
 
-/************/
-h1 {
-  color: rgb(32, 32, 112);
-}
-
-p {
+/***************************************************/
+main {
+  color: rgb(255, 255, 255);
   border: 2px solid powderblue;
-  padding: 30px;
-}
-
-img {
-  border: 1px solid #924040;
+  background-color: darkblue;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+
+  .Lable {
+    color: darkblue;
+    background-color: white;
+  }
 }
