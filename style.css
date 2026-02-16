@@ -67,3 +67,17 @@ img {
   font-weight: bold;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.container div {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  img {
+  height:50px;
+  }
+}
