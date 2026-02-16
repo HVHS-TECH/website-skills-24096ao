@@ -48,10 +48,22 @@ main {
   border: 2px solid powderblue;
   background-color: darkblue;
   border-radius: 4px;
-  padding: 5px;
-
-  .Lable {
-    color: darkblue;
-    background-color: white;
-  }
+  padding-left: 10px;
 }
+
+img {
+  width:228px;
+  height:228px;
+}
+
+/***************************************************/
+
+.Lable {
+  color: darkblue;
+  background-color: white;
+  }
+
+.boldText {
+  font-weight: bold;
+}
+
