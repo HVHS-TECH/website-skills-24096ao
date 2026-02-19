@@ -14,9 +14,8 @@ header {
 /***************************************************/
 
 nav {
-
   text-decoration-line: none;
-
+  
   ul {
     list-style-type: none;
     margin: 0;
@@ -41,8 +40,8 @@ nav {
     background-color: #72a0e6;
   }
 }
-
 /***************************************************/
+
 main {
   color: rgb(255, 255, 255);
   border: 2px solid powderblue;
@@ -52,7 +51,7 @@ main {
 }
 
 img {
-  width:228px;
+  width:auto;
   height:228px;
 }
 
@@ -67,11 +66,13 @@ img {
   font-weight: bold;
 }
 
+/***************************************************/
+
 .container {
   background-color: aliceblue;
   display: grid;
   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 600px 600px 600px;
+  grid-template-rows: 600px 600px 600px;
 }
 
 .container div {
@@ -79,14 +80,52 @@ img {
   padding: 10px;
   font-size: 30px;
   text-align: center;
-  
-  img {
-  height:500px;
-  width:auto;
-  }
 }
 
-.Item5 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
+  .Item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  /***************************************************/
+  
+  @media screen and (max-width: 700px) {
+    body {
+    background-color: red;
+    }
+  }
+
+  @media screen and (min-width: 700px) and (max-width: 800px) {
+    body {
+    background-color: orange;
+    }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    body {
+    background-color: yellow;
+    }
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1000px){
+    body {
+    background-color: green;
+    }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1100px) {
+    body {
+    background-color: blue;
+    }
+  }
+
+  @media screen and (min-width: 1100px) and (max-width: 1200px) {
+    body {
+    background-color: indigo;
+    }
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1300px) {
+    body {
+    background-color: violet;
+    }
+  }
