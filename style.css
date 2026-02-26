@@ -129,3 +129,55 @@ img {
     background-color: violet;
     }
   }
+
+/*********phone************have different items with thte words phone, tablet computer in html************************/
+@media screen and (min-width: 1px) and (max-width: 767px) {
+.Boxes {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.Boxes div {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+}
+
+/********Tablet******************/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+.Boxes {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.Boxes div {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+}
+
+/********computer*****************/
+@media screen and (min-width: 1024px) {
+.Boxes {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.Boxes div {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+}
