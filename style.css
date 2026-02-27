@@ -146,7 +146,7 @@ img {
   text-align: center;
 }
 .phone {
-  display: all;
+  display: block;
 }
 .tablet {
   display: none;
@@ -159,7 +159,6 @@ img {
 
 /********Tablet******************/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
 .Boxes {
   background-color: aliceblue;
   display: grid;
@@ -178,7 +177,7 @@ img {
   display: none;
 }
 .tablet {
-  display: all;
+  display: block;
 }
 
 .computer {
@@ -213,6 +212,6 @@ img {
 }
 
 .computer {
-  display: all;
+  display: block;
 }
 }
